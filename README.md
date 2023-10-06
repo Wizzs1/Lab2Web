@@ -135,4 +135,15 @@
 
 <img width="631" alt="image" src="https://github.com/Wizzs1/Lab2Web/assets/110619093/c44c680c-c0ba-462e-9fed-ff0a0ae848c1">
 
-## Pertanyaan dan Jawaban
+## Pertanyaan
+
+1. lakukanLakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
+dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+
+
+        <link rel="stylesheet" href="style.css">
+    
+        <h1 class="title">Wisnu Ikhwansyah Saputra</h1>
+        <p class="text">Galva Al Godzali</p>
+
+<img width="463" alt="image" src="https://github.com/Wizzs1/Lab2Web/assets/110619093/9a994481-b99a-4b29-8da6-354b4e8d3453">
