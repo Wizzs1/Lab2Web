@@ -18,7 +18,8 @@
 
 ---
 
-# Praktikum 2
+<p align="center"><b>Praktikum 2</b></p>
+
 ### membuat dokumen html
 
     <!DOCTYPE html>
@@ -137,8 +138,7 @@
 
 ## Pertanyaan
 
-1. lakukanLakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
-dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+<b>1. lakukanLakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.</b>
 
 
         <link rel="stylesheet" href="style.css">
@@ -147,3 +147,41 @@ dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul
         <p class="text">Galva Al Godzali</p>
 
 <img width="463" alt="image" src="https://github.com/Wizzs1/Lab2Web/assets/110619093/9a994481-b99a-4b29-8da6-354b4e8d3453">
+
+
+Pada contoh ini, terdapat elemen ```<h1>``` dengan class "title dan elemen ```<p>``` dengan class "text". Class tersebut akan digunakan sebagai selector dalam CSS untuk mengubah properti dan nilai. Dalam file CSS (style.css), terdapat aturan CSS yang dideklarasikan untuk class "title" dan "text". Aturan tersebut mengubah properti "color" pada elemen dengan class tersebut. Anda dapat mengubah nilai properti "color" pada file CSS sesuai keinginan Anda untuk melihat perubahan yang terjadi pada judul ```(h1)``` dan paragraf ```(p)``` dalam hal warna teks
+
+    .title {
+        color: purple;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+<b>contoh output</b>
+
+<img width="633" alt="image" src="https://github.com/Wizzs1/Lab2Web/assets/110619093/1ba5e48c-dd16-43e8-aee5-b6fb6a138645">
+
+
+<b> 2. Apa perbedaan pendeklarasian CSS elemen ```h1``` {...} dengan #intro ```h1``` {...}? berikan penjelasannya!</b>
+
+    
+    <div id="intro">
+       <h1 class="title">Wisnu Ikhwansyah Saputra</h1> 
+    </div>
+    <h1>LILTOTO</h1>
+
+<img width="632" alt="image" src="https://github.com/Wizzs1/Lab2Web/assets/110619093/d777a66b-58b6-43e7-9ea7-cacc71bcccb9">
+
+Pada contoh ini, terdapat elemen ```<h1>``` yang berada di dalam elemen ```<div>``` dengan ID "intro" dan juga elemen ```<h1>``` yang berdiri sendiri tanpa ada elemen lain di dalamnya.
+
+    h1 {
+        color: cyan;
+    }
+
+    #intro h1 {
+        color: aquamarine;
+    }
+
+<img width="633" alt="image" src="https://github.com/Wizzs1/Lab2Web/assets/110619093/803d5ef4-ad67-4289-adfc-e56f36d1d7f3">
