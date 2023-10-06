@@ -185,3 +185,17 @@ Pada contoh ini, terdapat elemen ```<h1>``` yang berada di dalam elemen ```<div>
     }
 
 <img width="633" alt="image" src="https://github.com/Wizzs1/Lab2Web/assets/110619093/803d5ef4-ad67-4289-adfc-e56f36d1d7f3">
+
+Dalam file CSS (styles.css), terdapat aturan CSS yang dideklarasikan untuk selector "h1" dan "#intro h1". Aturan CSS ```h1``` {...} akan berlaku untuk semua elemen ```<h1>``` dalam dokumen. Sementara itu, aturan CSS #intro h1 {...} hanya akan berlaku untuk elemen ```<h1>``` yang berada di dalam elemen dengan ID "intro". Perbedaan ini menyebabkan warna teks pada judul ```(h1)``` yang berada di dalam elemen dengan ID "intro" menjadi aquamarine, sedangkan warna teks pada judul ```(h1)``` yang berdiri sendiri tetap cyan.
+
+<b> 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS padaelemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!</b>
+
+    p {
+        color: antiquewhite;
+    }
+
+<img width="633" alt="image" src="https://github.com/Wizzs1/Lab2Web/assets/110619093/3ae39351-5a54-4980-ae54-f1929845a344">
+
+Deklarasi CSS internal di dalam tag ```<style>``` akan berlaku untuk elemen ```<p>```, tetapi warna teks yang dideklarasikan menjadi antiquewhite tidak akan terlihat karena deklarasi inline CSS menggunakan atribut "style" memiliki prioritas tertinggi. Oleh karena itu, warna teks pada paragraf akan menjadi hitam sesuai dengan deklarasi inline CSS. Deklarasi CSS eksternal dalam file styles.css tidak akan berlaku dalam contoh ini karena deklarasi inline CSS memiliki prioritas yang lebih tinggi.
+
+<b> 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!</b> ( <p .id="paragraf-1" class="text-paragraf"> )
